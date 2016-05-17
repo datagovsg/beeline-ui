@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>radioSelect</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="WRSWebsite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="radioSelect">
+            <circle id="radioHover" fill="#493762" cx="9.5" cy="9.5" r="9.5"></circle>
+            <g id="Group-6">
+                <circle id="Oval-132" fill="#493762" cx="9.5" cy="9.5" r="9.5"></circle>
+                <g id="Stroke-761-+-Stroke-762" transform="translate(5.846154, 7.307692)" stroke-linecap="round" stroke-width="2" stroke="#FFFFFF" stroke-linejoin="round">
+                    <polyline id="Stroke-761" points="7.77272727 0 1.94318182 5.34375 0 3.43526786"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
