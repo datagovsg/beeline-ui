@@ -159,9 +159,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #64488b; }
+  color: #493762;
+  text-decoration: none;}
 a:hover {
-  color: #a376e1; }
+  color: #665280; }
 
 
 /* Buttons
@@ -423,7 +424,7 @@ there.
 
 /* hide input */
 input.radio:empty {
-	margin-left: -999px;
+	margin-left: -9999px;
 }
 
 
@@ -492,8 +493,11 @@ label {
 }
 
 .streetview {
-  text-decoration: underline;
-  margin-left: 10px;
+  position: absolute;
+  clear: both;
+  /*border: 1px solid #493762;*/
+  margin-left: 50px;
+  border-radius: 5px;
 }
 
 fieldset {
@@ -502,7 +506,7 @@ fieldset {
 }
 
 .grey{
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 .header{
@@ -513,4 +517,18 @@ fieldset {
 .footer{
   bottom: 0;
   margin-top: 50px;
+}
+
+.route{
+  font-size: 1.4em;
+  padding: 30px;
+  background-color: #ccc;
+}
+
+.route td{
+  border:0px;
+}
+
+.center {
+  text-align: center;
 }
