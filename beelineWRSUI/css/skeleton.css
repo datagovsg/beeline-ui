@@ -307,7 +307,7 @@ ol ul {
   font-size: 90%;
 }
 li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
   list-style-position: outside;
   margin-left: 30px;
   padding-left: 20px;
@@ -472,4 +472,8 @@ hr {
 
 .textright {
   text-align: right;
+}
+
+.busco {
+  width: 60%;
 }

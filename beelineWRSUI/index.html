@@ -106,101 +106,102 @@
     <!-- Form part 2 starts
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container space">
-        <div class="one-half column">
+        <div class="six columns">
             <h6>Going to the Zoo</h6>
             <fieldset>
-                <!-- Select boarding
-                            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+              <div>
+                <!-- Select alighting start
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
                 <h6>Select your boarding location</h6>
                 <div class="radioGroup">
-                    <input type="radio" name="board" id="board1" class="radio" checked/>
-                    <label for="board1">None</label>
+                    <input type="radio" name="board" id="board1" class="radio" / checked>
+                    <label class="select" for="board1">None</label>
                 </div>
 
                 <div class="radioGroup">
                     <input type="radio" name="board" id="board2" class="radio" />
-                    <label for="board2"><strong>Bedok</strong>
+                    <label class="select" for="board2"><strong>Bedok</strong>
                         <br>First Stop Name
                         <br>Stop Type, Road Name</label>
                 </div>
 
                 <div class="radioGroup">
                     <input type="radio" name="board" id="board3" class="radio" />
-                    <label for="board3"><strong>Sengkang</strong>
+                    <label class="select" for="board3"><strong>Sengkang</strong>
                         <br>Second Stop Name
                         <br>Stop Type, Road Name</label>
                 </div>
 
                 <div class="radioGroup">
                     <input type="radio" name="board" id="board4" class="radio" />
-                    <label for="board4"><strong>Tampines</strong>
+                    <label class="select" for="board4"><strong>Tampines</strong>
                         <br>Third Stop Name
                         <br>Stop Type, Road Name</label>
                 </div>
                 <!-- Select boarding ends
-                              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+              </div>
 
             </fieldset>
         </div>
-        <div class="one-half column">
+        <div class="six columns">
             <h6>Return from the Zoo</h6>
             <fieldset>
+              <div>
                 <!-- Select alighting start
                 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
                 <h6>Select your alighting location</h6>
                 <div class="radioGroup">
                     <input type="radio" name="alight" id="alight1" class="radio" / checked>
-                    <label for="alight1">None</label>
+                    <label class="select" for="alight1">None</label>
                 </div>
 
                 <div class="radioGroup">
                     <input type="radio" name="alight" id="alight2" class="radio" />
-                    <label for="alight2"><strong>Bedok</strong>
+                    <label class="select" for="alight2"><strong>Bedok</strong>
                         <br>First Stop Name
                         <br>Stop Type, Road Name</label>
                 </div>
 
                 <div class="radioGroup">
                     <input type="radio" name="alight" id="alight3" class="radio" />
-                    <label for="alight3"><strong>Sengkang</strong>
+                    <label class="select" for="alight3"><strong>Sengkang</strong>
                         <br>Second Stop Name
                         <br>Stop Type, Road Name</label>
                 </div>
 
                 <div class="radioGroup">
                     <input type="radio" name="alight" id="alight4" class="radio" />
-                    <label for="alight4"><strong>Tampines</strong>
+                    <label class="select" for="alight4"><strong>Tampines</strong>
                         <br>Third Stop Name
                         <br>Stop Type, Road Name</label>
                 </div>
                 <!-- Select alighting ends
                   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+              </div>
+
             </fieldset>
         </div>
-        <hr>
+
     </div>
     <!-- Stops and Timing Ends
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- Booking Terms and Conditions Starts
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container space">
+        <hr>
         <div class="row">
             <h6>Bus Service is operated by</h6>
-            <table>
-                <tr>
-                    <td>
-                        <img src="images/busplusLogo.png" />
-                    </td>
-                    <td>
-                        Bus-Plus Services Pte Ltd
-                        <br> bus-plus@smrt.com.sg
-                        <br>
-                    </td>
-                </tr>
-            </table>
+          <div class="six columns">
+            <img src="images/busplusLogo.png"/>
+          </div>
+          <div class="six columns">
+            Bus-Plus Services Pte Ltd
+            <br> bus-plus@smrt.com.sg
+          </div>
         </div>
 
-        <div class="row">
+        <div class="row space">
             <h6>Important Note</h6>
             <ul>
                 <li>Strictly no cancellation allowed.</li>
@@ -278,11 +279,12 @@
             </div>
 
             <div class="center">
-                <p>
-                    Yes, I have read and agree to the <a href="">Terms and Conditions</a> of booking with Bus-Plus Services Pte Ltd.
-                </p>
-                <div class="u-cf"></div>
+              <div class="radioGroup">
+                  <input type="checkbox" name="agree" id="agree" class="radio"/>
+                  <label class="select" for="agree">Yes, I have read and agree to the <a href="">Terms and Conditions</a> of booking with Bus-Plus Services Pte Ltd.</label>
+              </div>
 
+                <div class="u-cf"></div><br />
                 <button class="button-primary">Confirm and pay now</button>
             </div>
         </div>
