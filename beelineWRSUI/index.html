@@ -99,7 +99,8 @@
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container space">
         <!-- The above form looks like this -->
-        <h6>Your Particulars</h6> LOREM LDNJSSJDSJDHSJDSJHDH
+        <h6>Your Particulars</h6>
+        form stuff here
         <hr>
     </div>
     <!-- Form part 2 starts
@@ -110,7 +111,7 @@
             <fieldset>
                 <!-- Select boarding
                             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                <h5>Select your boarding location</h5>
+                <h6>Select your boarding location</h6>
                 <div class="radioGroup">
                     <input type="radio" name="board" id="board1" class="radio" checked/>
                     <label for="board1">None</label>
@@ -146,7 +147,7 @@
             <fieldset>
                 <!-- Select alighting start
                 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                <h5>Select your alighting location</h5>
+                <h6>Select your alighting location</h6>
                 <div class="radioGroup">
                     <input type="radio" name="alight" id="alight1" class="radio" / checked>
                     <label for="alight1">None</label>
@@ -225,54 +226,55 @@
         <div class="row">
             <h6>Price Calculator</h6>
             <div class="center">
-              <table>
-                  <td>
-                      <tr>
-                          <th>
-                              Trips selected
-                          </th>
-                          <th>
-                              Going
-                          </th>
-                          <th>
-                              Return
-                          </th>
-                      </tr>
-                      <tr>
-                          <th>
-                              Price Per Trip
-                          </th>
-                          <th>
-                              $3
-                          </th>
-                          <th>
-                              $3
-                          </th>
-                      </tr>
-                      <tr>
-                          <th>
-                              No. of Paying Passengers
-                          </th>
-                          <th>
+                <table class="price">
+                    <td>
+                        <tr>
+                            <th>
+                                <h6>Trips selected</h6>
+                            </th>
+                            <th class="textright">
+                                <h6>Going</h6>
+                            </th>
+                            <th class="textright">
+                                <h6>Return</h6>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                              <p>Price Per Trip</p>
 
-                          </th>
-                          <th>
-                              2
-                          </th>
-                      </tr>
-                      <tr>
-                          <td>
-                              Total
-                          </td>
-                          <td>
+                            </td>
+                            <td class="textright">
+                                $3
+                            </td>
+                            <td class="textright">
+                                $3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>No. of Paying Passengers</p>
+                            </td>
+                            <td>
 
-                          </td>
-                          <td>
-                              $18.00
-                          </td>
-                      </tr>
-                  </td>
-              </table>
+                            </td>
+                            <td class="textright">
+                                2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6>Total</h6>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td class="textright">
+                                $18.00
+                            </td>
+                        </tr>
+                    </td>
+                </table>
             </div>
 
             <div class="center">
@@ -297,6 +299,9 @@
     <div class="footer">
         <div class="container">
             <div class="center">
+                <p>
+                  This booking service is powered by Beeline.sg.<br> If you face any issues, please contact feedback@beeline.sg
+                </p>
                 <p style="margin-bottom:-10px;">
                     &copy; 2016 Beeline Singapore. All Rights Reserved.
                 </p>
