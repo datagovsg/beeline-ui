@@ -1,0 +1,75 @@
+/* Styling Radio Button */
+
+/* hide input */
+input.radio:empty {
+	margin-left: -9999px;
+}
+
+
+/* style label */
+input.radio:empty ~ label {
+	position: relative;
+	float: left;
+	line-height: 1.5em;
+	margin-top: 0.8em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.radio:empty ~ label:before {
+	position: absolute;
+	top: 0.1em;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 1.5em;
+  height: 1.5em;
+	background: #D1D3D4;
+	border-radius: 50px;
+}
+
+/* toggle hover */
+.radioGroup {
+  clear: both;
+}
+
+input.radio:hover:not(:checked) ~ label:before {
+	content:'\2713';
+	text-indent: .4em;
+	color: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color: #999;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+	content:'\2713';
+	text-indent: .4em;
+	color: #fff;
+	background-color: #493762;
+}
+
+input.radio:checked ~ label {
+	color: #493762;
+}
+
+/* radio focus */
+input.radio:focus ~ label:before {
+	box-shadow: 0 0 0 0px #999;
+}
+
+label.select {
+  font-weight: normal;
+  position:relative;
+  display:block;
+}
+
+fieldset {
+  border: 1px solid #eee;
+  padding: 20px 30px;
+}
