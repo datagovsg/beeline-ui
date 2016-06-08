@@ -165,6 +165,7 @@ hr {
 header{
   top: 0;
   width: 100%;
+  height: auto;
   padding-top: $spacing-default;
   padding-bottom: $spacing-default;
   background-color: $header-bg-color;
@@ -175,6 +176,7 @@ header{
 footer{
   margin-top: $spacing-default;
   width: 100%;
+  height: auto;
   padding-top: $spacing-default;
   padding-bottom: $spacing-default;
   background-color: $footer-bg-color;
