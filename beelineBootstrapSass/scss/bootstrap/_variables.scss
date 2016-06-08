@@ -874,3 +874,16 @@ $dl-horizontal-offset:        $component-offset-horizontal !default;
 $dl-horizontal-breakpoint:    $grid-float-breakpoint !default;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter !default;
+
+//header
+$header-height:               50px;
+$header-bg-color:             transparent;
+
+//footer
+$footer-height:               50px;
+$footer-bg-color:             transparent;
+
+//spacing
+$spacing-large:               80px;
+$spacing-default:             30px;
+$spacing-zero:                0px;

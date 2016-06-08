@@ -159,3 +159,24 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+
+//header
+
+header{
+  top: 0;
+  width: 100%;
+  padding-top: $spacing-default;
+  padding-bottom: $spacing-default;
+  background-color: $header-bg-color;
+  margin-bottom: $spacing-zero;
+}
+
+//footer
+footer{
+  margin-top: $spacing-default;
+  width: 100%;
+  padding-top: $spacing-default;
+  padding-bottom: $spacing-default;
+  background-color: $footer-bg-color;
+  bottom:0;
+}

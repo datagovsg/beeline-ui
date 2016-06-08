@@ -1151,6 +1151,22 @@ hr {
 [role="button"] {
   cursor: pointer; }
 
+header {
+  top: 0;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent;
+  margin-bottom: 0px; }
+
+footer {
+  margin-top: 30px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent;
+  bottom: 0; }
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
