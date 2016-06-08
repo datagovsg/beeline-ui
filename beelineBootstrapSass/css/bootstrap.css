@@ -1169,6 +1169,27 @@ footer {
   background-color: transparent;
   bottom: 0; }
 
+.green {
+  background-color: #2adb66; }
+
+/* flex row */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-end; */ }
+
+/* bigger portion use this */
+.flex-grow {
+  flex: 0 0 auto; }
+
+/* smaller portion use this */
+.flex-shrink {
+  flex: 1 1 auto; }
+
+/* Note: flex: grow shrink flex-basis */
+.align-self {
+  align-self: center; }
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
